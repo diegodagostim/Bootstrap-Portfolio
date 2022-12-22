@@ -28,6 +28,12 @@ nav:hover {
   font-size: 18px;
 }
 
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .cards {
   display: flex;
   flex-direction: row;
