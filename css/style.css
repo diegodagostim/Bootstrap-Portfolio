@@ -1,6 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Nunito Sans";
+}
+
+nav {
+  font-size: 13px;
+  color: rgb(44, 44, 44);
+  font-size: 14px;
+}
+
+nav:hover {
+  color: black;
 }
 
 .jumbotron {
