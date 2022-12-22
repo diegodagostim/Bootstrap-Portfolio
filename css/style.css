@@ -15,8 +15,12 @@ nav:hover {
 }
 
 .jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: auto;
-  height: 820px;
+  height: 650px;
   background: url(../images/jumbo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
