@@ -39,7 +39,7 @@ nav:hover {
 .h2 {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 15px;
 }
 
@@ -48,5 +48,13 @@ nav:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+#aboutme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
   margin-top: 15px;
 }
