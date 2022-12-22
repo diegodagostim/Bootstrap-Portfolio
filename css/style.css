@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
+.jumbotron {
+  width: auto;
+  height: 820px;
+  background: url(../images/jumbo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
