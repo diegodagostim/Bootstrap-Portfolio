@@ -55,6 +55,11 @@ nav:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
   margin-left: 20px;
   margin-top: 15px;
+}
+
+#footer {
+  margin-top: 20px;
 }
