@@ -51,7 +51,7 @@ nav:hover {
   margin-top: 15px;
 }
 
-#aboutme {
+.about_contact {
   display: flex;
   flex-direction: row;
   align-items: center;
