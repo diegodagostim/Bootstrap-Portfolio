@@ -123,6 +123,21 @@ nav:hover {
   margin-top: 15px;
 }
 
+/* About me Card */
+.card2 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+  margin-top: 0;
+  width: auto;
+  height: 200px;
+}
+
+.about {
+  padding: 15px;
+  text-align: justify;
+}
+
 #footer {
   margin: 20px;
 }
