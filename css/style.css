@@ -34,71 +34,50 @@ nav:hover {
 }
 
 /* Social Media Icon position */
-.icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+
+.workTitle {
+  padding: 20px;
 }
 
-/* My Work Section */
-.work {
-  display: flex;
-  flex-direction: row;
+.img1 {
+  background-image: url(../images/horiseon.png);
+}
+
+.img2 {
+  background-image: url(../images/myweb.png);
+}
+
+.img3 {
+  background-image: url(../images/portfolio.png);
+}
+
+.img4 {
+  background-image: url(../images/system.png);
+}
+
+.img5 {
+  background-image: url(../images/welcome.png);
+}
+
+/* Skills Section */
+.skills {
   margin-top: 30px;
   margin-left: 15px;
 }
 
-.workContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.img1 {
-  display: flex;
-  flex-direction: column;
-  width: 340px;
-  height: 340px;
-  background: url(https://placehold.co/340x340);
-}
-
-.img2 {
-  display: flex;
-  flex-direction: column;
-  width: 340px;
-  height: 340px;
-  background: url(https://placehold.co/340x340);
-}
-
-.img3 {
-  display: flex;
-  flex-direction: column;
-  width: 340px;
-  height: 340px;
-  background: url(https://placehold.co/340x340);
-}
-
-.img4 {
-  display: flex;
-  flex-direction: column;
-  width: 340px;
-  height: 340px;
-  background: url(https://placehold.co/340x340);
-}
-
-.skills {
-  margin-top: 25px;
-  margin-left: 15px;
-}
-
-/* Work Section image description */
 .cards {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 15px;
+}
+
+/* Work Section image description */
+.workContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .imgDescription {
