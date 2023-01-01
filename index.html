@@ -112,7 +112,7 @@
     
 
 <!--Skill Cards -->
-<div class="work"><h2>Professional Skills</h2></div>
+<div class="#"><h2>Professional Skills</h2></div>
       <div class="cards" id="cards">
 	<div class="card" style="width: 18rem;">
 		<img src="../images/webdev.png" class="card-img-top" alt="Web Developer">
@@ -140,6 +140,8 @@
   <!-- About Me and Contact Section-->
       <div class="about_contact" id="aboutContact">
         <div class="col-sm-6 mb-3 mb-sm-0">
+
+          <!-- About Me start here -->
           <div class="h2"><h2>About Me</h2></div>
           <div class="card">
             <div class="card-body">
@@ -153,8 +155,28 @@
           <div class="h2"><h2>Contact</h2></div>
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Contact</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+              <!-- Contact form start here-->
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label class="form-label" for="name">Name</label>
+                  <input class="form-control" id="name" type="text" placeholder="Name" />
+                </div>
+            
+                <div class="mb-3">
+                  <label class="form-label" for="emailAddress">Email Address</label>
+                  <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+                </div>
+            
+                <div class="mb-3">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+                </div>
+            
+                <div class="d-grid">
+                  <button class="btn btn-primary btn-lg button" type="submit">Submit</button>
+                </div>
+              </form>
               
             </div>
           </div>
