@@ -1,9 +1,11 @@
+/* Whole page settings */
 * {
   margin: 0;
   padding: 0;
   font-family: "Nunito Sans";
 }
 
+/* Navbar positioning, color and hover effect */
 #navBar {
   position: fixed;
   font-size: 13px;
@@ -16,6 +18,7 @@ nav:hover {
   color: black;
 }
 
+/* Jumbotron section styling and positioning */
 .jumbotron {
   display: flex;
   flex-direction: column;
@@ -30,17 +33,77 @@ nav:hover {
   font-size: 18px;
 }
 
+/* Social Media Icon position */
 .icons {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.h2 {
+/* Titles positioning */
+.work {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
   margin-left: 15px;
+}
+
+.workContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 340px;
+  background: url(https://placehold.co/340x340);
+}
+
+.img2 {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 340px;
+  background: url(https://placehold.co/340x340);
+}
+
+.img3 {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 340px;
+  background: url(https://placehold.co/340x340);
+}
+
+.img4 {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 340px;
+  background: url(https://placehold.co/340x340);
+}
+
+/* Work Section image description */
+.imgDescription {
+  width: 340px;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.imgDescription > h5 {
+  margin-top: 7px;
+}
+
+.imgDescription > p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 14px;
+  margin-right: 14px;
+  text-align: justify;
 }
 
 .cards {
@@ -62,4 +125,20 @@ nav:hover {
 
 #footer {
   margin: 20px;
+}
+
+/* Button Style and Hover animation */
+.button {
+  background-color: black;
+  border: 0;
+}
+
+.button:hover {
+  background-color: rgb(98, 97, 97);
+  border: 1px solid rgb(50, 50, 50);
+}
+
+/* Footer links style */
+.links {
+  font-size: 14px;
 }
