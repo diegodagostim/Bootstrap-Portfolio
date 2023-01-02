@@ -68,40 +68,43 @@ nav:hover {
 #card1 {
   background-image: url(../images/myweb.png);
   background-size: cover;
+  border-bottom: 10px solid rgb(15, 112, 196);
 }
 
 #card2 {
   background-image: url(../images/welcome.png);
   background-size: cover;
+  border-bottom: 10px solid rgb(15, 112, 196);
 }
 
 #card3 {
   background-image: url(../images/portfolio.png);
   background-size: cover;
+  border-bottom: 10px solid rgb(15, 112, 196);
 }
 
 #card4 {
   background-image: url(../images/system.png);
   background-size: cover;
+  border-bottom: 10px solid rgb(15, 112, 196);
 }
 
 .internal {
   display: flex;
   align-items: center;
-  border-bottom: 7px solid rgb(237, 184, 9);
+  border-bottom: 5px solid rgb(15, 112, 196);
   background-color: rgb(81, 81, 81, 0.8);
   width: auto;
   height: 70px;
   color: white;
   text-align: justify;
   padding: 10px;
-  font-weight: bolder;
+  font-size: 18px;
 }
 
 /* Skills Section */
 .skills {
   display: flex;
-  position: relative;
   margin-top: 30px;
   margin-left: 15px;
   border-bottom: 3px rgb(66, 70, 75) solid;
@@ -136,6 +139,7 @@ nav:hover {
   padding: 15px;
   border-bottom: 3px rgb(66, 70, 75) solid;
   border-top: 3px rgb(66, 70, 75) solid;
+  margin-top: 85px;
 }
 
 .about_contact {
@@ -190,6 +194,42 @@ nav:hover {
   margin-top: 25px;
 }
 
+/* See More Pop-up */
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
 @media (max-width: 600px) {
   .workcol {
     width: 450px;
@@ -201,7 +241,6 @@ nav:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
     justify-content: space-evenly;
   }
 
@@ -210,7 +249,6 @@ nav:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
     justify-content: space-evenly;
   }
   .cards {
@@ -218,7 +256,14 @@ nav:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 25px;
-    margin-top: 15px;
+  }
+
+  .about {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .navBar {
+    font-size: 12px;
   }
 }
