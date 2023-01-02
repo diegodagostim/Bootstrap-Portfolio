@@ -32,35 +32,25 @@ nav:hover {
   color: white;
   font-size: 18px;
 }
-
-/* Social Media Icon position */
-
-.workTitle {
-  padding: 20px;
+.icons {
+  display: flex;
+  flex-direction: row;
 }
 
-.img1 {
-  background-image: url(../images/horiseon.png);
+/* Work Section image description */
+
+.workheader {
+  margin: 20px;
 }
 
-.img2 {
-  background-image: url(../images/myweb.png);
-}
-
-.img3 {
-  background-image: url(../images/portfolio.png);
-}
-
-.img4 {
-  background-image: url(../images/system.png);
-}
-
-.img5 {
-  background-image: url(../images/welcome.png);
+.container {
+  display: grid;
 }
 
 /* Skills Section */
 .skills {
+  display: flex;
+  position: relative;
   margin-top: 30px;
   margin-left: 15px;
 }
@@ -71,31 +61,6 @@ nav:hover {
   align-items: center;
   justify-content: space-evenly;
   margin-top: 15px;
-}
-
-/* Work Section image description */
-.workContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.imgDescription {
-  width: 340px;
-  height: 120px;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.imgDescription > h5 {
-  margin-top: 7px;
-}
-
-.imgDescription > p {
-  font-size: 14px;
-  margin-top: 10px;
-  margin-left: 14px;
-  margin-right: 14px;
-  text-align: justify;
 }
 
 /* About me Card */
