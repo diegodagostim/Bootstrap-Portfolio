@@ -164,6 +164,7 @@ nav:hover {
 #button {
   background-color: black;
   border: 0;
+  box-shadow: 3px 3px 3px white;
 }
 
 #button:hover {
