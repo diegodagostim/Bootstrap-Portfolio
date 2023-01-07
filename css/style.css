@@ -231,4 +231,13 @@ nav:hover {
   .navBar {
     font-size: 12px;
   }
+
+  .about_contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 450px;
+  }
 }
